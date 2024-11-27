@@ -4,9 +4,9 @@ import 'package:meals_app/screens/categories_secreen.dart';
 
 final theme = ThemeData(
     useMaterial3: true,
-    textTheme: GoogleFonts.loraTextTheme(),
+    textTheme: GoogleFonts.latoTextTheme(),
     colorScheme: ColorScheme.fromSeed(
-      seedColor: Colors.black,
+       seedColor: const Color.fromARGB(255, 131, 57, 0),
       brightness: Brightness.dark,
     ));
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: theme,
-      home: const CategoriesSecreen(),
+      home: const CategoriesScreen(),
     );
   }
 }
