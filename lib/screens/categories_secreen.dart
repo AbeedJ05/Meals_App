@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meals_app/widgets/category_widget.dart';
+import 'package:meals_app/category_widget.dart';
 import 'package:meals_app/data/data_dummy.dart';
 import 'package:meals_app/models/category_model.dart';
 import 'package:meals_app/screens/meals_screen.dart';
@@ -33,7 +33,7 @@ class CategoriesScreen extends StatelessWidget {
       body: GridView(
         padding: const EdgeInsets.all(24),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
+          crossAxisCount: 2,//for column count
           childAspectRatio: 3 / 2,
           crossAxisSpacing: 20,
           mainAxisSpacing: 20,

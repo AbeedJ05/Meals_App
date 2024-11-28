@@ -30,6 +30,7 @@ class MealsModel{
   });
 
   final String id;
+  //from category models ill take the id from it
   final List<String> categories;
   final String title;
   final String imageUrl;
