@@ -5,16 +5,13 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Meals App with Riverpod
+This is a simple Meals App built with Flutter and Riverpod for state management. The app demonstrates how to manage meal data using Riverpod, making it easy to update and access state across different widgets in the app.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features:
+State Management with Riverpod: Uses Riverpod to handle meal data and update the state across widgets.
+Dynamic Data: Updates meal data and automatically reflects changes in the UI.
+Provider Setup: Shows how to set up and use providers to manage state efficiently.
 =======
 # Meals_App
 >>>>>>> 959154dfb2fea20100e61011c76a009f6cd365bd
